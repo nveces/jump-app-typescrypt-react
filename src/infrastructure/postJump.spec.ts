@@ -21,7 +21,7 @@ describe('Infrastructure -> Test Sent Jump to Back', () => {
       }
     };
 
-    axios.post.mockImplementationOnce(() => Promise.resolve(response));
+    (axios.post as jest.Mock).mockImplementationOnce(() => Promise.resolve(response));
     const jumpResponse = await sentJump(url, data);
 
     expect(jumpResponse).toBe(response.data);

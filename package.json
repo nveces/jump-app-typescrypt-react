@@ -1,6 +1,6 @@
 {
   "name": "demo-typescript-react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
@@ -14,12 +14,14 @@
     "@types/react-dom": "^16.9.9",
     "axios": "^0.21.0",
     "classnames": "^2.2.6",
+    "google-protobuf": "^3.19.1",
+    "grpc-web": "^1.3.0",
     "install": "^0.13.0",
     "npm": "^6.14.10",
-    "react": "^17.0.1",
-    "react-beautiful-dnd": "^13.0.0",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0",
+    "react": "^17.0.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^17.0.0",
+    "react-scripts": "5.0.1",
     "typescript": "^4.0.5",
     "web-vitals": "^0.2.4"
   },
